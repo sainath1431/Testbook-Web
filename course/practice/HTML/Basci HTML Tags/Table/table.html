@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML : Table</title>
+</head>
+<body>
+
+    <!-- Table in HTML -->
+
+    <!-- This border attribute is apply to the border of table only not for the border of rows and cols. -->
+
+    <table border="1" cellspacing="5" cellpadding="5"> 
+
+        <!-- caption tag is used to display the title of table -->
+         <caption>Employee Information</caption>
+
+        <!-- row in table represented by <tr> tag. -->
+            <tr>
+                <!-- table headings/column names represented by <th> tag. -->
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+
+            <tr>
+                <td>Alex</td>
+                <td>50,000</td>
+            </tr>
+
+            <tr>
+                <td>Smith</td>
+                <td>45,000</td>
+            </tr>
+
+            <tr>
+                <td>Sainath</td>
+                <td>1,00,000</td>
+            </tr>
+
+            <tr>
+                <td>Ashitosh</td>
+                <td>1,50,000</td>
+            </tr>
+    </table>
+</body>
+</html>
+
+
+<!-- 
+Usecase1 : Suppose We have to make University website and if we want to show the data of student on webpage. then we can use the table to display the student info in the tabular form (row and col).
+
+Usecase2 : You are design website for a company and you have display information of employee of company. it will be displayed by using table in the row and col format.
+
+In HTML  we use the tables to display data in the form of row and col.
+
+title to table is done by caption tag and data in the table shows in the rows and cells.
+
+Table caption is used to displaying table title.
+
+Headings are used to specify our column name for example age , student name, salary etc.
+
+Inside table cell the content can be paragraph, image, bold, italic, strong, list etc. any content.
+
+<tr></tr> ===> table row.
+
+<td></td> ===> table data. content left aligned by default.
+
+<th></th>  ===> table heading/table header. content center aligned by default.
+
+<caption></caption> ===> table title
+
+caption tag is used immediately after table tag before tr tag. and by default content inside it center aligned.
+
+table border : by default do not have border to the table. to apply border to the table we use border attribute to the table element/tag. it is applicable for only table tag. for rows and cells the border can be applied in styles.
+
+before apply the border to the table. and not heading to the column.
+-->
