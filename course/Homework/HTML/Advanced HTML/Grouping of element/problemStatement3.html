@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the web page -->
+
+    <title>Problem Statement 3 : Div and simple external styles.</title>
+
+    <!-- styles given using the class name of the divisions. -->
+
+    <style>
+        .main{
+            text-align: justify;
+        }
+
+
+        .highlights{
+            color: red;
+            font-weight: bold;
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        .content{
+            background-color: lightblue;
+        }
+
+        .table{
+            background-color: lightgreen;
+        }
+
+        .lists{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    Create a webpage that has multiple HTML elements like headings, paragraphs, table, list...separate the elements using <div> element and add simple styles to them
+    -->
+
+    <div class="main">
+
+        <!-- Content with highlights -->
+        <div class="content" >
+            <!-- Content with highlights -->
+            <h2 class="heading">Running Champions</h2>
+            <p class="para">Paris Olympics: <span class="highlights">COVID-19 </span>looms over games with several athletes <span class="highlights">testing positive</span></p>
+        </div>
+
+        <div class="table">
+            <table border="2px solid black" style="width:30%">
+
+                <!-- Header Row -->
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th>Grade</th>
+                </tr>
+
+                <!-- Data Row 1 -->
+                <tr>
+                    <td>Jil</td>
+                    <td>Smith</td>
+                    <td>4</td>
+                </tr>
+
+                <!-- Data Row 2 -->
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>7</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="lists">
+            <p> Rank Of winner can be seen in the following list.</p>
+            <ol>
+                <!-- ordered list -->
+                <li>Jack Wills</li>
+                <li>Jill Smith</li>
+                <li>Mark Willam</li>
+                <li>Eve Jackson</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
