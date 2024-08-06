@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML : Forms</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <hr>
+    <br>
+    <form>
+        Enter Your Name :
+        <input type="text" required>
+        <!-- 
+        if you want some of  the fileds are compulsary / mandetaory then use the required attribute inside the field or element. 
+        -->
+
+        <br><br>
+
+        Enter Your email :
+        <input type="email" placeholder="abc@gmail.com" required>
+        <!-- placeholder gives hint to the user what type of input is type. -->
+
+        <br><br>
+
+        <!-- use case : roll no , integer identification no. (adhar card etc) -->
+        Enter Your Contact Number : 
+        <input type="number" >
+
+        <br><br>
+
+
+        <!-- Radio Button -->
+        <!-- 
+        When you use the type radio you have club all input into single group so that you can choose one out of them. this will be possible by using the attribute name inside the input tag. all input tag define name attribute with the same value. so that they all input element club in single group. as follow as  for example name="gender"
+        -->
+        Select Your Gender : 
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+
+        <br><br>
+
+        <!-- Check Boxes -->
+        Select Your Qualification :
+
+        <input type="checkbox"> 10th
+        <input type="checkbox"> 12th
+        <input type="checkbox"> Graduate
+        <input type="checkbox"> Post-Graduate
+
+
+
+
+        <!-- <input type="checkbox" id="qua-1"> <label for="qua-1">10th</label> 
+        <input type="checkbox" id="qua-2"> <label for="qua-2">12th</label> 
+        <input type="checkbox" id="qua-3"> <label for="qua-3">Graduate</label> 
+        <input type="checkbox" id="qua-4"> <label for="qua-4">Post-Graduate</label>  -->
+
+        <br><br>
+
+        <!-- 
+        Select element give an drop down menu.
+        name attribute states the which thing of menu.
+        option element is used to define the menu option.
+        value attribute in side option element of value(like delhi) this are passes to the backed to perfrom operation.
+        -->
+
+        <select name="City">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="banglore">Banglore</option>
+            <option value="jaipur">Jaipur</option>
+        </select>
+        
+        <br><br>
+
+        <!-- Date input tag with its attributes -->
+
+        Date Of Birth : <input type="date">
+
+
+        <!-- 
+        input type ="date"
+
+        min = minimum range of date 
+        max = maximum range of date 
+
+        when take input date in a range from user then uses the min and max attribute in input element. min and max format is (year-month-date).
+
+        Use Case : Reservation / Booking web app (flight booking, railway Reservation , hotel booking etc )
+        -->
+
+        <!-- Select a Date : <input type="date"  min="2024-07-15" max="2024-08-15">  
+         
+        -->
+
+        <br><br>
+
+        <!-- textarea element  -->
+        <!-- 
+        rows = define the total number of rows in the textarea.
+        cols = define the total number of cols in the textarea.
+        
+        it is used to input the multiline text such as address, comments , post etc.
+        -->
+
+        Write A Desciption About Yourself : <br>
+        <textarea rows="2" cols="50"></textarea>
+
+        <br><br>
+
+        <!-- Choose User Name and passward -->
+        <!-- type password uses to getting an sensitive information like (credit card, debit card , addhar Card information and password etc. sensitive information ) so that it will masked/ hide. -->
+
+        Choose A Username : <input type="text" >
+
+        <br><br>
+
+        Enter Any Password : <input type="password">
+
+        <br><br>
+
+        <!-- input type submit -->
+        <!-- The value which will write in value attribute that will display inside the button on webpage. -->
+
+        <input type="submit" value="Click Here To Register.">
+
+    </form>
+
+
+</body>
+</html>

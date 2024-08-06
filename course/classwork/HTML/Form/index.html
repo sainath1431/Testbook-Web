@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML : FORM</title>
+    <link rel="icon" type="image/X-icon" href="download.png">
+</head>
+<body>
+    <form >
+
+        <fieldset>
+
+            <legend>Personal Info</legend>
+            <label for="first_name">First Name : </label>
+            <input type="text"  id="first_name" name="first_name" required><br>
+
+            <label for="last_name">Last Name : </label>
+            <input type="text" id="last_name" name="last_name"><br>
+
+        </fieldset>
+
+        Select your Response 1 <br>
+        <label for="resp1">Yes</label>
+        <input type="radio" name="resp" id="resp1" value="yes">
+        <label for="resp2">No</label>
+        <input type="radio" name="resp" id="resp2" value="No"> <br>
+
+        Select your Response 2 <br>
+        <label for="resp3">Yes</label>
+        <input type="radio" name="abc" id="resp3" value="Yes">
+        <label for="resp4">No</label>
+        <input type="radio" name="abc" id="resp4" value="No"> <br>
+
+        <p>Which Vehicle you have</p> <br>
+        <label for="vehicle1">Bike</label>
+        <input type="checkbox" name="Vehicle" id="vehicle1" value="Bike"><br>
+        <label for="vehicle2">Car</label>
+        <input type="checkbox" name="Vehicle" id="vehicle2" value="Car"><br>
+        <label for="vehicle3">Truck</label>
+        <input type="checkbox" name="Vehicle" id="vehicle3" value="Truck"><br>
+
+        <input type="button" value="submit">
+        
+        <input type="reset"> <br><br>
+
+        <select name="cars" id="cars" multiple size="3" required>
+            <option value="Volvo">Volvo</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi" selected>Audi</option>
+            <option value="Frari">Frari</option>
+        </select>
+        
+        <br><br>
+
+        <button type="submit" value="submit">Submit</button>
+
+    </form>
+</body>
+</html>
