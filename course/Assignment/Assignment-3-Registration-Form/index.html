@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="form">
+        <form action="" method="get">
+            <h2>Registration Form</h2>
+            <div class="personal-details">
+                <div>
+                    <p>
+                        <label for="email">Enter your details below</label>
+                    </p>
+                    <ul>
+                        <li>
+                            <input type="email" name="myEmail" id="email" placeholder="Your_email@gmail.com" required>
+                        </li>
+                        <li>
+                            <input type="password" name="myPassword" id="password" placeholder="Password" minlength="8" maxlength="20" required>
+                        </li>
+                    </ul>
+                    <p class="highlight1">!Type a complex password with 8-20 characters.</p>
+                    <ul>
+                        <li>
+                            <input type="number" name="contact" id="contact" placeholder="+91 phone Number" required>
+                        </li>
+                    </ul>
+                </div>
+                <div class="seperator">
+    
+                </div> 
+            </div>
+            <div class="professional-details">
+                <div>
+                    <span class="span1">Enter Your Profesion : </span>
+                    <ul>
+                        <li>
+                            <input type="radio" name="profession" id="myProfession1" value="student" required> 
+    
+                            <label for="myProfession1">Stduent</label>
+    
+                            <input type="radio" name="profession" id="myProfession2" value="Teacher"required> 
+                            <label for="myProfession2">Teacher</label>
+    
+                            <input type="radio" name="profession" id="myProfession3" value="Developer"required> 
+                            <label for="myProfession3">Developer</label>
+    
+                        </li>
+    
+                        
+                    </ul>
+                    <div>
+                        <span>Choose the stage if you are (Student) </span>
+                        <select name="primary" id="mylist" size="1">
+                            <option value="first primary" selected >first primary</option>
+                            <option value="second primary">second primary</option>
+                            <option value="third primary">third primary</option>
+                        </select>
+                    </div>
+                    <div class="seperator">
+    
+                    </div>
+    
+                    <div class="dob">
+                        <ul>
+                            <li>
+                                <span>Enter your Birth date :
+    
+                                </span>
+                                <input type="date" name="mydob" id="mydob" required>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="seperator">
+    
+                    </div>
+    
+                    <div class="notes">
+                        <ul>
+                            <li>
+                                <input type="text" name="mynote" id="myNote" placeholder="Any Notes">
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="seperator">
+    
+                    </div>
+    
+                    <div class="btn">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+
+                   
+    
+                </div>
+                
+    
+            </div>
+
+        </form>
+    </div>
+   
+</body>
+
+</html>

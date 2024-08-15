@@ -1,0 +1,32 @@
+.form{
+    background-color: lightskyblue;
+    width: 50vw;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.seperator{
+    height: 1px;
+    background-color: gray;
+    margin: 10px 0px;
+
+}
+
+ul > li > input{
+    margin: 10px 0px;
+}
+
+.highlight1{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.professional-details {
+    margin-top: 20px;
+}
+
+.professional-details div .span1{
+    font-weight: bold;
+    font-style: italic;
+}
+

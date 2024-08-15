@@ -4,7 +4,9 @@
 
 /* Poppins  */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 
 
@@ -13,7 +15,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Martel Sans", sans-serif;
+
+}
+
+/* apply style to the body of webpage */
+body{
+    background-color: black;
 }
 
 
@@ -24,16 +32,16 @@
     background-position: center center;
     background-size: max(1200px , 100vw);
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     position: relative;
     
 }
 
 /* To achive the opacity on background-image */
 .main .box{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     background-color: black;
     position: absolute;
     top: 0;
@@ -64,7 +72,8 @@ nav button{
 }
 
 .hero{
-    height: 100%;
+    /* to calculate height i.e. parent height - 62px by using css calc() function */
+    height: calc(100% - 62px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,12 +83,115 @@ nav button{
     position: relative;
     /* font family */
     font-family: "Martel Sans", sans-serif;
+    gap: 23px;
+    padding: 0px 30px;
 
 }
 
 /* WhatFont website use to check what type of fond is given. */
+/* > is used to after hero tag nth-child() only*/
 
-.hero :first-child{
+
+.hero> :nth-child(1){
+    font-family: "Poppins", sans-serif;
     font-weight: bolder;
     font-size:48px;
+    text-align: center;
 }
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+}
+
+.btn{
+    
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243,0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    color: white;
+    
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23,0.7);
+    border: 1px solid  rgba(246, 238, 238,0.5);
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.first{
+    display:flex ;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImage{
+    position: relative;
+}
+
+.secImage img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImage video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+/* 
+.first > div:first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first > div:nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+} */
+

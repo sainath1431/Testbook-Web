@@ -1,0 +1,91 @@
+*{
+    background-color: #ccc;
+    /* Remove the default margin and padding applied by browser */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    border : 2px solid black;
+    background-color: rgb(111, 111, 205);
+    border: solid 4px black;
+    color:#fff;
+    /* padding and margin apply to the all sides at a time. */
+    padding: 20px;
+    margin: 10px;
+    /* Padding and margin apply to the individiual side as follow as : */
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    /* shorthand property by using two values first value for top/bottom and second value for left/right */
+    padding:10px 20px;
+
+    /* Shorthand Property for padding by using four values. */
+
+    /* padding : 10px 20px 30px 40px; padding : top right bottom left */
+    
+    
+    /* Margin apply individual side */
+    /* margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 150px; */
+
+    /* 
+    
+    Shorthand Property for margin by using two values
+
+    margin: 10px 20px;
+
+    */
+
+    /* 
+    Shorthand Property for margin by using four values.
+    */
+
+    /* margin : 10px 20px 30px 40px; margin : top right bottom left */
+
+
+    /* To take the box element to the center with top and bottom apply some margin as follow as */
+
+    margin: 50px auto; /*here auto adujust margin from both left and right so element show in center*/
+    width: 50%;
+
+    width: 30rem;
+    height: 100px;
+    
+}
+
+
+p{
+    background-color: #fff;
+    padding: 10px 20px;
+    text-align: justify;
+    margin: 10px;
+    /* the width of element is not exceed than max-width of that element */
+    /* the height of element is not exceed than max-height of that element */
+
+    /* Here if you want to anyone not change vlaue of any property then applied to that propertey as !important */
+    /* max-width: 50px !important; */
+    max-height: 100px !important;
+
+    /* To control the over flow of the content out side the element by following property */
+
+    /* hide all over flowed content but we can't see that content. */
+    /* overflow: hidden; */
+
+    /* hide all over flowed content but we can see by scrolling scroll bar. */
+    /* overflow: auto; */
+
+    /* by using overflow visible we can see content which will over flowed outside the element. */
+    /* overflow: visibles !important; */
+
+    /* By using overflow scroll we can scroll bar in height and width so we can see easily overflowed content. */
+    /* overflow: scroll; */
+
+    /* If you are content overflow vertically only then use overflow-y and if you are content overflow horizontally only then use overflow-x as follow as  */
+
+    overflow-y: scroll;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border: solid 2px #cccccc;
+    padding: 10px;
+}
+
+.container > h1{
+    background-color: rgb(48, 245, 245);
+    padding: 20px 10px;
+    text-align: center;
+    color: darkblue;
+}
+
+.container > img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 15px 10px 0px ;
+    background-color: rgb(150, 145, 145);
+    padding: 10px;
+    float: left; /* positioned to the left to the web page layout */
+    /* float: right; positioned to the right to the web page layout */
+
+}
+
+.container > .text{
+    color: rgb(104, 104, 104);
+    margin: 20px 10px;
+    text-align: justify;
+}
+
+
+.clear{
+    /* here clear the float which value is left on the web page. by using this clear selector */
+    clear: left;
+}

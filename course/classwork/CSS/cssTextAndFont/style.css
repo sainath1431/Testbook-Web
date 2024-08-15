@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111;
+}
+
+h1{
+    color: orangered;
+    /* direction: rtl;direction of text right to the left */
+
+}
+
+p{
+    color: orange;
+    /* text direction */
+    /* direction: ltr; this default direction of text i.e. left to right */
+
+    /* letter-spacing */
+    /* letter-spacing: normal; default letter-spacing value which have normal space between letter */
+    /* letter-spacing: 10px; it gives 10px space between each letter */
+
+    /* word-spacing */
+    /* word-spacing: normal; this default value */
+    /* word-spacing: 30px; each word seperated by 30px space */
+
+    /* text-indent */
+    text-indent: 3cm; /* every paragraph first line indentation space is 3cm */
+
+    /* text-align */
+    /* text-align: center; align all text-content to the center of div/block */
+    /* text-align: left; align all text-content to the left of div/block. this is default alignment. */
+    /* text-align: right; align all text-content to the right of div/block */
+    text-align: justify; /* align all text-content to justify of div/block */
+
+    /* Text-Cases */
+
+    text-transform: uppercase; /* make all letter to Capital (in Upper case )*/
+    text-transform: lowercase; /* make all letter to small (in lower case )*/
+    text-transform: capitalize; /* make first letter of all words   are in capital.*/
+    
+
+
+    /* extra style for seek of understanding. */
+    width: 80%; /* paragraph acquires 80% width of total width of its parent element */
+    padding: 20px 40px;
+    margin: 30px;
+    border : 2px solid white;
+
+    /* font-formatting  */
+
+    font-family: 'Courier New', Courier, monospace; /* by using it we define different font to text */
+    /* font-weight: bold; by using we define the boldness of the text */
+
+    font-style: italic;/* all text becomes itallic style*/
+    
+
+}
+
+.decoration{
+    
+    color: white;
+
+
+    /* text-decoration */
+    /* text-decoration: none; This default value */
+    /* text-decoration: overline;  this makes a line over a text */
+    /* text-decoration: line-through; This makes line on the text  */
+    /* text-decoration: underline; this makes line under line */
+
+
+    /* font-formatting */
+    font-weight: bold;
+
+    cursor: pointer; /* when we go to this text cursor changes fron arrow to cursor*/
+
+
+
+
+}
+
+#shadow{
+    text-align: center;
+    margin: 50px 20px;
+    font-size: 4rem;
+    text-shadow: 1px 1px 3px rgb(229, 167, 167); /* horizontal-shadow vertical-shadow blur_value color */
+}

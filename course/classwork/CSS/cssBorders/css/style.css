@@ -1,0 +1,115 @@
+h1{
+    color: blue;
+}
+
+p{
+    /* Border In CSS */
+    
+    /* 
+    
+    border-style property 
+    Not have any border and it is default property.
+
+    border-style: none; defualt property
+    border-style: solid; solid-lined broder
+    border-style: dotted; dotted-lined border
+    border-style: dashed; dashed-lined border
+    border-style: double; straight lined double  border 
+    
+    
+    */
+
+    border-style: solid;
+
+    /* 
+    we can change the style of individual border direction as follow as  
+    
+    border-top-style: dotted; it will make top border as dotted.
+    border-left-style: solid; it willmake left border as solid.
+    border-right-style: double; it will make right border as double
+    border-bottom-style: dashed; it will make bottom border as dashed.
+
+    Shorthand property (for four values) for above code is as follow as 
+
+    border-style : top right bottom left;
+
+    border-style : dotted double dashed solid;
+
+    Shorthand property (for two  values) for above code is as follow as 
+
+    border-style : top/bottom left/right;
+
+    border-style : dashed dotted; here top and bottom dashed border and left and right are dotted border.
+
+
+    */
+
+
+    /* 
+    
+    border-width have three values thick, medium , thin this are default properties.
+
+    border-width : thick;
+    border-width : medium;
+    border-width : thin;
+
+    we can define border-width by custom way also as follow as.
+
+    border-width : 30px;
+
+    we can define individual side to different border-width as border-style.
+
+    border-top-width : 10px;
+    border-right-width : 20px;
+    border-bottom-width : 30px;
+    border-left-width : 40px;
+    
+    we can use shorthand property also for border-width.
+
+    border-width : 10px 20px 30px 40px;
+    border-width : 20px 40px;
+
+    */
+
+    /* 
+    Border-Color 
+
+    border-color : redornage; it provides the color to the border.
+
+    we can define individual side to different border-color as border-style.
+
+    border-top-color : red;
+    border-right-color : green;
+    border-bottom-color : orange;
+    border-left-color : blue;
+    */
+
+    /* Shorthand property for above all things as follow as  */
+
+    /* border : border-style border-width border-color;     */
+
+    /*
+    Border Radius 
+    
+    We can define border radius to individual corner also.
+    
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+    */
+
+}
+
+a{
+    border-style: solid;
+    padding: 4px 10px;
+    border-color: orange;
+    border-width: 2px;
+}
+
+a:hover{
+    color: white;
+    background-color: orange;
+}
