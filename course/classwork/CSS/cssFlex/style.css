@@ -1,0 +1,161 @@
+.container{
+    background-color: rgb(230, 227, 227);
+    height: 700px;
+    padding: 15px 10px;
+    /* forcefuly changed the alignment of the block level elements into inline elements by using display : flex property. */
+    display: flex;
+
+    /* flex Properties */
+
+    /* flex-direction :  
+
+    flex-direction: row; if we give display : flex then default flex-direction  is 'row'. 
+    flex-direction: column; all flex-items align in cross axis / column axis 
+    flex-direction: row-reverse; all flex-items align in x-axis / row axis but in reverse manner
+    flex-direction: column-reverse; all flex-items align in cross axis / column axis but in reverse manner.
+
+    */
+
+    /* 
+    Flex-wrap : it has three values nowrap, wrap , wrap-reverse.
+
+    flex-wrap : nowrap that means the flex-item align in single direction with adjusting the dimensiosns it will not wrapped as per the screen size.
+    flex-wrap : wrap it will wrap in such way that they  without changing its dimensions wrap into given screen size so that it look good.
+    flex-wrap : wrap in reverse direction.
+
+    */
+
+    /* 
+    flex-flow property :  it is the shorthand property for the flex-direction and flex-wrap.
+
+    flex-flow :  flex-direction flex-wrap;
+
+    Example :    
+    flex-flow: row wrap-reverse;
+
+    */
+
+    /* 
+    Flex Property  justify-content : 
+
+    justify-content: flex-start; it will deault value which placed all flex-items at the start of the flexbox.
+    justify-content: flex-end; it will placed all the flex-items at the end of the flexbox.
+    justify-content: center; it will placed all the flex-items at the center of the flexbox.
+    justify-content: space-between; here aligned flex-item in such way that space-width between each two flex-items is equal
+    justify-content: space-around; here aligned flex-items in such way that space around to the each flex-item is equal.
+    justify-content: space-evenly; here aligned flex-items in such way that space-width between each two flex-items is equal and that space-width is also at start and end to the flexbox.
+
+    
+    */
+
+    /* 
+    
+    Flex Properties - align-items : ( To use for the alignment of the flex-items)
+
+    align-items: center; align all flex-items to the center of the flexbox.
+    align-items: flex-start; this is default value. all flex-items align to the start of the flexbox.
+    align-items: flex-end; in this all flex-items are align to the end of the flexbox.
+    align-items: stretch; Items are stretched to fit the container
+    align-items: baseline; Items are positioned at the baseline of the container.
+
+    */
+
+    /* 
+    
+    Flex Properties - align-content : (It is use to align the content inside flexbox / flex-items 
+    
+    align-content: flex-start; Lines are packed toward the start of the flex container
+    align-content: flex-end; Lines are packed toward the end of the flex container
+    align-content: center;Lines are packed toward the center of the flex container
+    align-content: space-between; Lines are evenly distributed in the flex container
+    align-content: space-around;	Lines are evenly distributed in the flex container, with half-size spaces on either end
+    align-content: space-evenly ; 	Lines are evenly distributed in the flex container, with equal space around them
+    align-content: stretch; Default value. Lines stretch to take up the remaining space
+
+
+    */
+
+    flex-wrap: wrap;
+
+
+    /* 
+    
+    Flex Properties : Gap (to control the space between flex-items )
+
+    gap : row_gap column_gap;
+
+    for example 
+    
+    gap : 10px 20px;
+    
+    */
+
+    /* 
+    
+    Flex Properties : order ( specifies order of the flex-item )
+
+    In according to the order the flex-items are displayed.
+    value must be a number . default value is 0.
+
+    it is define in style attribute of html element by inline css.
+
+    *******************************************************
+
+    Flex Properties : Flex-grow ( To make the flex item grow with respect to the given value ) 
+
+    In according to the flex-grow the flex-items  are grow and  displayed.
+    value must be a number . default value is 0.
+
+    it is define in style attribute of html element by inline css.
+
+    *************************************************************
+
+    Flex Properties : flex-shrink ( To make the flex item shrink with respect to the given value)
+
+    In according to the flex-shrink the flex-items  are grow and  displayed.
+    value must be a number . default value is 0.
+
+    it is define in style attribute of html element by inline css.
+
+    The maximum Flex-shrink value then it will be maximum shrinked that item.
+
+    *****************************************************************
+
+    Flex Basis : ( The value will be assigned as default size of the flex item and the remaining space will be destributed. )
+
+    flex-basis : value;
+
+    *****************************************************************************
+
+    Shothand property :
+
+    flex : flex_grow flex_shrink flex_basis;
+    
+    ********************************************************************************
+
+
+
+
+
+
+
+    
+    */
+
+
+
+
+    
+    
+}
+
+.item{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    
+    
+}

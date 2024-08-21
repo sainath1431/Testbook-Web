@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    background-color: rgb(204, 222, 228);
+}
+
+
+
+/* 
+
+POSITIONING OF HTML ELEMENTS
+
+Position
+
+Static,
+Relative,
+Absolute,
+Fixed,
+Sticky
+
+Z-Index.
+
+
+
+*/
+
+.item{
+    width: 200px;
+    height: 200px;
+    background: rgb(95, 95, 212);
+    margin: 40px 0px 0px 40px;    
+
+    /* position: static;  this is an default property. */
+}
+
+.item > div{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 242);
+    margin: 40px 0px 0px 0px;    
+
+    position: relative; /* In Position : relative we moved the html element relative to its original position. */
+    /* top: 20px; */
+    /* left: 30px; */
+    right: 50px;   
+    bottom: 30px;
+}
+
+.item2{
+    width: 200px;
+    height: 200px;
+    background: rgb(1, 1, 38);
+    margin: 40px 0px 0px 40px;    
+    position: relative;
+    
+}
+
+.item2 > div{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 0, 0);
+
+    /* 
+    
+    1. Position absolute direct. ( when we does not define any position property in its parent element)
+    
+        it will ignore other html elements and then position itself with the body 
+    
+    */
+
+    /* Position absolute direct. (it will positioned with respect to body )*/
+    /* position: absolute; */
+    /* top: 20px; */
+    /* bottom: 20px; */
+
+    /* Position absolute when its parent position is relative. (it will positioned with respect to its parent element.) */
+    position: absolute;
+    top: 20px;
+}
+
+.item3{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 0, 255);
+    margin: 50px 10px;
+    /* position: fixed;
+    top: 0px; */
+}
+
+.item4{
+    width: 200px;
+    height: 200px;
+    background: rgb(134, 17, 134);
+    margin: 50px 10px;
+    position: sticky;
+    top: 100px;
+    z-index: 10000; /* z-index positive means above the screen and z-index negative more inside the screen. it used to overloapping the elements.*/
+    
+
+}
